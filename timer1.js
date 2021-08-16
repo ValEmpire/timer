@@ -1,10 +1,11 @@
 const main = () => {
-
   const args = process.argv.slice(2);
 
   if(args.length === 0){
     return;
   }
+
+  let seconds = 0;
 
   setInterval(function() {
     seconds = seconds + 1000;
@@ -21,7 +22,6 @@ const main = () => {
 
 main();
 
-let seconds = 0;
 
 
 
